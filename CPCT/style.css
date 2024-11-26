@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner-content {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.card-deck .card {
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
