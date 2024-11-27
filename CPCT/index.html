@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steno Brothers Coaching Center</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Header Section -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-            <img src="logo.jpg" alt="Logo" style="width: 40px;"> Steno Brothers Coaching Center
+            <img src="logo.jpg" alt="Steno Brothers Logo" style="width: 40px;"> Steno Brothers Coaching Center
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,22 +22,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+
                 <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Admissions</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="admision.html">Admissions</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contact cpct.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Banner Section -->
-    <div class="banner">
-        <div class="banner-content">
-            <h1>Achieve Your Dreams with Quality Coaching</h1>
-            <p>Providing top-notch coaching for CPCT to help students excel.</p>
-            <button class="btn btn-primary">Get Started</button>
-        </div>
+    <div class="jumbotron text-center text-white" style="background: linear-gradient(to right, #007bff, #6c757d);">
+        <h1>Achieve Your Dreams with Quality Coaching</h1>
+        <p>Providing top-notch coaching for CPCT to help students excel.</p>
+        <a href="#enroll" class="btn btn-light btn-lg">Get Started</a>
     </div>
 
     <!-- About CPCT Section -->
@@ -49,12 +48,14 @@
     <!-- Courses Offered Section -->
     <div class="container mt-5">
         <h2>Courses Offered</h2>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Computer Proficiency Certification Test (CPCT)</h5>
-                    <p class="card-text">Duration: 2 months</p>
-                    <p class="card-text">A comprehensive course designed to prepare you for the CPCT.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Proficiency Certification Test (CPCT)</h5>
+                        <p class="card-text">Duration: 2 months</p>
+                        <p class="card-text">A comprehensive course designed to prepare you for the CPCT.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,7 +81,7 @@
     </div>
 
     <!-- Registration Section -->
-    <div class="container mt-5">
+    <div class="container mt-5" id="enroll">
         <h2>Enroll Now</h2>
         <form>
             <div class="form-group">
@@ -101,7 +102,7 @@
                     <option>CPCT</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
         </form>
     </div>
 
@@ -116,6 +117,7 @@
         <p>&copy; 2024 Steno Brothers Coaching Center. All Rights Reserved.</p>
     </footer>
 
+    <!-- Bootstrap JS Bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
